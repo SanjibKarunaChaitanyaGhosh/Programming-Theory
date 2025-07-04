@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>setInterval Demo</title>
+</head>
+<body>
+  <h2>Live Clock (updates every second)</h2>
+  <p id="clock"></p>
+
+  <script>
+    setInterval(function () {
+      let now = new Date();
+      document.getElementById("clock").innerText = now.toLocaleTimeString();
+    }, 1000);  // Updates every 1 second
+  </script>
+</body>
+</html>

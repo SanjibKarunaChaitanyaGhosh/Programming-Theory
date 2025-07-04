@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+ <p id="output">Hi, this is Sanjib</p>
+
+<script>
+    function add(a, b) {
+        return a + b;
+    }
+
+    let result = add(3, 5);
+    document.getElementById("output").innerText = result;  // Shows 8 in the paragraph
+    
+    // If You Want to See Both:
+     document.getElementById("output").innerText += " and the result is " + result;
+</script>
+
+</body>
+</html>

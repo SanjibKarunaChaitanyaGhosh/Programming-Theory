@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-01</title>
+</head>
+<body>
+    <script>
+        // Synatx
+        // function functionName(parameter1, Parameter2, Parameter3,.....) {
+        //     code to be executed
+        // }
+
+        //🔹 Example-1
+        //=================================================
+        function greet(name) {
+            console.log("Hello, " + name + "!");
+        }
+
+        greet("Sanjib"); // Output: Hello, Sanjib!
+
+        //🔹 Example-2
+        //==================================================
+        function add(a, b) {
+            return a + b;
+        }
+
+        let result = add(3, 5);  // result = 8
+        console.log(result);
+
+
+        //🔹 Example-3
+        //==================================================
+        //	Function Declaration
+        function sayHi() {
+            console.log("Hi!");
+        }
+        sayHi(); // output = Hi!
+
+        
+        //🔹 Example-4
+        //==================================================
+        // Anonymous Function
+        const sayHi1 = function() {
+            console.log("Hi!");
+        };
+        sayHi1();
+        
+        //🔹 Example-5
+        //==================================================
+        // Arrow Function (ES6+)
+        const sayHi = () => {
+            console.log("Hi!");
+        };
+
+
+        //🔹 Example-6
+        //==================================================
+        function greetLater() {
+        console.log("Hello after 2 seconds");
+        }
+
+        setTimeout(greetLater, 2000);  // Runs after 2 seconds
+
+
+
+    </script>
+</body>
+</html>

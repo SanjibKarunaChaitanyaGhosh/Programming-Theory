@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lexical Scope and Closure</title>
+</head>
+<body>
+    <script>
+     //🔹 Example-1
+    //=================================================
+    function outerFunction() {
+        console.log("I am the outer function");
+
+            function innerFunction() {
+                console.log("I am the inner function");
+            }
+
+        innerFunction(); // Call the inner function from within the outer function
+    }
+
+    outerFunction();
+
+    //🔹 Example-2
+    //=================================================
+
+    //🔹 Example-3
+    //=================================================
+    //🔹 Example-4
+    //=================================================
+    //🔹 Example-5
+    //=================================================
+
+    </script>
+</body>
+</html>

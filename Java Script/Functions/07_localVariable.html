@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Variable</title>
+</head>
+<body>
+    <script>
+        //🔹 Example-1
+        //=================================================
+        function sum(x,y){
+            //here local variable x and y
+            s=x+y;
+            console.log(s);
+        }
+        sum(2,3);
+
+        //🔹 Example-2
+        //=================================================    
+        function sum1(a,b){
+            //here local variable a and b or we can say that block scope variable
+            s1=a+b;
+            console.log(s1);
+        }
+        sum1(2,3);
+        // console.log(a); //out of scope, cause a and b is also local variable
+        
+
+        //🔹 Example-3
+        //=================================================  
+        
+    </script>
+</body>
+</html>

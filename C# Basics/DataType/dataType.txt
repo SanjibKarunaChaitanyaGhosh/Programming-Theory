@@ -1,0 +1,96 @@
+C sharp is astrongly typed language
+
+What is dataType ?
+    it is used to represent the pattern of the data and size of data in memory.
+
+
+what is String DataType ?
+    NUmeric PArt,Albhabetical Part,and Special PArt , all types of character combination can be contain by the string.
+
+
+Primitive DataTypes
+    i.      int -------> 4 byte (C# has int16,int32,int64)
+    ii.     float------> 4 byte , 8 byte (float size depends on ox 32 and 64) 
+    iii.    char ------> 2 byte
+    iv.     string-----> based on no of character
+    v.      boolean----> it returns 0(false) or 1(true)
+
+    Disadvantages : if we use premitive DataType, we violate
+                    Object Orientation Programming.
+
+Derived DataTypes
+    This Type of DataType was Specially Created by .NET FrameWork that is common for all .NET Supported programming Languages.
+
+    i.      Object
+    ii.     StringBuilder
+    iii.    Class
+    iv.     Structure
+    v.      Enumeration
+
+
+    i. Object : It can contain all types of elements means the object 
+            is the common type in the .NET framework, we can assign int,float,char, and string type data under an OBJECT.
+
+            Example, object o=10; object o="hello";
+
+
+    ii. StringBuilder : It used to contain String type data similar to String
+            StringBuilder is mutable object means we can dynamically change the value from the actual address.
+
+    iii. Class : It is used to define the characterestics of an object using 
+            data member and member function. It can contain a collection of 
+            different types of elements.
+
+    iv. Structure : It contains a collection of Datatype but it is a value
+            type container C#.
+
+    v. Enumeration : It is called constant Array means we can define a set of 
+            values enum, for example if we we want to define a set of five different colors then we can create an enum set.
+
+    vi. Array : It can contain elements in Proper Sequence, an array can store 
+            more than one element using a single variable.
+
+    vii. Collection : It contain a similar and di-similar type of
+            elements both,it is an enhancement of an ARRAY.
+
+    viii. DataTime : It can contain Data Time type Values.
+
+
+
+
+    MOst Important Question of C# for an INTERVIEW 
+
+    WHat is the boxing and unboxing concept in C# ?
+         or
+    WHat is implicit and explicit conversion in C# ?
+
+    Boxing means to convert the value type elements to reference type,which
+            means if we convert integer type value to object type then it is called Boxing.
+
+            BOXING is also called implicit because it will convert the data automatically.
+
+    UNBOXING  means converting reference type elements to value type. which 
+            means if we convert object type to integer type then it is called UNBOXING concept.
+
+            UNBOXING is also called explicit conversion because it will convert the data manually.
+
+        
+    
+    Memory allocation based on data type.
+
+            1. Stack memory
+            2. Heap Memory
+
+
+STACK MEMORY : it is used to contain the value of int,char,
+            float,double and boolean type elements, it will 
+            store data directly hence it is called direct memory. 
+
+            it is created after compilation time.
+
+HEAP MEMORY : it is used to contain the value according to
+            reference String, Object these all are reference 
+            type. It is called INDIRECTED Memory.
+
+            It is created during runtime.
+

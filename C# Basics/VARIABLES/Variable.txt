@@ -1,0 +1,44 @@
+A variable is a named storage location used to hold data that can be manuipulated, retrived, and updated within a program.
+
+Variable value can be changed dynamically by users.
+
+Declaration:
+    int age;
+
+Initialization:
+    age=32;
+
+NAMING CONVENTION:
+    i. ignore predefined keyword.
+    ii. meaningful,
+    iii. Pascale ( MobilePhone ) and camle case (mobilePhone)
+    iv. always start name with alphabet
+
+SCOPE  :
+    block scope within mathod,
+    global scope within class.
+
+
+Type Inference:
+    var name="JOHN"; compiler auomatically detected it as String
+
+Constant in C#:
+    const double pi=3.14159;  HAVE to assign value.
+
+Literals :
+    a Literals is a notation used to represent a constant value directly in the source code. It's a way to provide data directlyto your program without requiring computation or processing.
+
+    ex- hello word is string type literals.
+
+    i. integer,
+    ii. Floating point,
+    iii. Character,
+    iv. String literals,
+    v. Boolean Literals,
+    vi. NUll Literals,
+    vii. DateTime Literals( represnt date and time),
+    viii. Time Span Literals( represent time intervals),
+    ix. Verbatim String Literals( Preserve line breaks and 
+                escape character),
+    x. Type Literals,
+    xi. Default Literals

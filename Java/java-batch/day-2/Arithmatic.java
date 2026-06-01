@@ -26,8 +26,9 @@ class Arithmatic
 2. Relational
 3. Logical
 4. Assignment
-5. Increment and Decrement
-6. Conditional Operator 
-7. Bitwise operator
-8. Special Operator
+5. Increment and Decrement 
+6. Conditional Operator (remaining)
+7. Bitwise operator (remaining)
+8. Special Operator (reamining)
+9. ternary Operator (remaining)
 */

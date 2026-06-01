@@ -1,0 +1,27 @@
+Defination:
+    In Java, a constructor is a specialized block of code designed to initialize an object immediately after it is created. While it resembles a method, it is distinct because it must have the same name as the class and no return type (not even void).
+
+It is a special type of method whose name is same as class name.
+
+1. The mainpurpose of the constructor is initialize the object.
+2. Every java class have a constructor.
+3. A constructor is automatically called at the time of object creation.
+4. A constructor don't have any return type(not even void).
+
+
+Default constructor:
+        initialize the valus within instance Variable.
+        instance Variables are part of the object.
+        This means default constructor also initialize the object.
+
+Types of constructor:
+1. Default constructor : 
+        A constructor which doesnot have any parameter is called default constructor.
+
+2. Parametrized constructor :
+        A constructor through which we can pass one or more parameters is called Parametrized constructor.
+        
+3. Copy constructor :
+        Whenever we pass object reference to the Constructor then it is call coppy Constructor.
+
+4. Privet constructor

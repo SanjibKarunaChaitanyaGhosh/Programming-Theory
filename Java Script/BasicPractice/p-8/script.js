@@ -14,8 +14,19 @@ const notSubcribe=document.getElementById("notSubcribe");
 
 submit.onclick=function(){
     if(checkbox.checked){
-        result.textContent=`Your are subscribed`
+        notSubcribe.textContent=`Your are subscribed`
     }else{
-        result.textContent=`Your are not subscribed`
+        notSubcribe.textContent=`Your are not subscribed`
+    }
+
+    if(visa.checked){
+        result.textContent=`You choosed Visacard`
+    }else if(master.checked){
+        result.textContent=`You choosed Mastercard`
+    }else if(Paypal.checked){
+        result.textContent=`You choosed Paypal`
+    }
+    else{
+        result.textContent=`You did not choose any card`
     }
 }

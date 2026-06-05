@@ -7,9 +7,13 @@ const result=document.getElementById("result")
 
 submit.onclick=function(){
     
-    age=Number(text.value)
+    let age=Number(text.value)
 
     if(age>=18){
         result.textContent =`Your age is ${age}, so you are eligible to vote`
+    }
+    else{
+        result.textContent =`Your age is ${age}, so you are not 
+        eligible to vote`
     }
 }

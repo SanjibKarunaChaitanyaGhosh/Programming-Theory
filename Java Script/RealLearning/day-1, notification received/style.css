@@ -1,0 +1,12 @@
+#panel {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.notification {
+    padding: 10px;
+    margin: 5px 0;
+    background: #f2f2f2;
+    cursor: pointer;
+}

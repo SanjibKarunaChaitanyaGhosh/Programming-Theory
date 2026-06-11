@@ -30,3 +30,7 @@ submit.onclick=function(){
         result.textContent=`You did not choose any card`
     }
 }
+
+// submit.onclick = () => {   notSubcribe.textContent = checkbox.checked     ? "You are subscribed"     : "You are not subscribed";    result.textContent =     visa.checked ? "You chose Visa Card" :     master.checked ? "You chose Mastercard" :     Paypal.checked ? "You chose Paypal" :     "You did not choose any card"; };
+
+// ternery Operaton

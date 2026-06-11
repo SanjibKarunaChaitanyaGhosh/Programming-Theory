@@ -1,0 +1,16 @@
+input{
+    width: 500px;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+button{
+    padding: 5px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 8px;
+    border: 3px solid rgb(0, 0, 0);
+    background-color: rgb(222, 200, 0);
+    color: rgb(0, 0, 7);
+    font-size: 20px;
+}

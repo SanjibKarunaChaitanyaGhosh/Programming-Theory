@@ -2,6 +2,7 @@
 let userName = prompt("Please enter your name:");
 
 // 2. Define the greeting function
+
 let getGreeting = (name) => {
   if (name !== null && name !== "") {
     return "Hello, " + name + "!";

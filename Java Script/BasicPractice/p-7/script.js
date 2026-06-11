@@ -17,3 +17,5 @@ submit.onclick=function(){
         eligible to vote`
     }
 }
+
+// ternary operator
